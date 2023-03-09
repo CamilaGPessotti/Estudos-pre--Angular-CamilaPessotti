@@ -1,0 +1,232 @@
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+
+}
+
+.banner {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e9ecef;
+    border: 2px solid #e2e6e9;
+
+}
+
+main .banner .textos-banner {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1.titulo-banner {
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    color: #222c31;
+}
+
+.p.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #786070;
+    margin: 20px;
+    
+
+}
+
+.navegador {
+    height: 50px;
+    background-color: #343a40;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+
+}
+
+.Nav {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 0 10px 0 10px;
+
+}
+
+.navegador a {
+    color: rgb(176, 180, 180);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.contColunas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 20px 70px;
+}
+
+.filho1 {
+    width: 100%;
+}
+
+
+.filho1 h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color:#50545A;
+    padding: 10px 0px;
+    margin: 0;
+}
+
+.filho1 p {
+    color: #50545A;
+    font-size: 20px;
+    margin: 0;
+}
+
+.fake {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #AAAAAA;
+}
+
+.contColunas .filho1 .some {
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+    color: #50545a;
+}
+
+.some {
+    padding: 10px;
+    font-size: 30px; 
+    font-weight: 700;
+}
+
+.contColunas .filho1 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 38%
+
+}
+
+.contColunas .filho1 .link2 {
+    width: 100%;
+
+}
+
+.link2 a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    position: relative;
+    width: 40%;
+    font-size: 25px;
+    padding: 0px;
+    text-decoration: none;
+
+}
+
+.link2 .azul a {
+    color: aliceblue;
+    margin: 0 0 0 10px;
+}
+
+.link2 .azul {
+    background-color: blue;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    text-align: left;
+    border-radius: 6px;
+    color:aliceblue;
+}
+
+.link2 a {
+    padding: 20px 0px;
+    margin: 0 0 0 10px;
+}
+
+.contColunas .filho2 {
+
+    flex-direction: column;
+    width: 60%;
+    padding: 0px 0px 100px 0px;
+    margin: 0;
+
+}
+
+.contColunas .filho2 h2 {
+    margin: 0;
+    padding: 20px 0 19px 0;
+    color: #50545a;
+    font-weight: bold;
+}
+
+.contColunas .filho2  p {
+    padding: 0px 0 0px 0;
+    margin: 0;
+    font-size: 20px;
+    color:#50545A;
+    
+}
+
+.text2 {
+    font-family: 'Times New Roman';
+}
+
+.contColunas .filho2 .fake2 {
+    width: 100%;
+    height: 250px;
+    background-color: #AAAAAA;
+
+}
+
+.filho2 h2 {
+    color:a#50545a;
+    margin: 0;
+    font-weight: bold;
+}
+
+.filho2 p {
+    margin: 0;
+    
+}
+
+.footer {
+    background-color: #e9ecef;
+    padding: 40px;
+    text-align: center;
+}
+
