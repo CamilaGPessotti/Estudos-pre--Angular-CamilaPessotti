@@ -1,0 +1,370 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* html{
+    /* overflow-y:hidden;
+    overflow-x:hidden;
+ } */
+
+
+.bannerPai {
+    padding: 60px 0 150px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8dcb89;
+
+}
+
+.bannerPai .bannerNav {
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.bannerPai .bannerNav .buttonNav {
+    background-color: #8dcb89;
+    border-radius: 4px;
+    border: none;
+    color:#fff;
+    font-family:Helvetica;
+    font-size: 14px;
+    line-height: 21px;
+    width: 150px;
+
+}
+
+.bannerPai .bannerNav .buttonNav:hover {
+    background-color:#6fc06a;
+    padding: 15px 10px ;
+    transition: 1s;
+}
+
+.bannerPai .bannerTitle h1 {
+    color: white;
+    margin: 10px;
+    font-size: 70px;
+
+}
+
+.bannerPai .bannerTitle .subTit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6F7F71;
+    font-size: 17px;
+    
+}
+
+.bannerPai .bannerTitle .subTit span  {
+    letter-spacing: 2px;
+}
+
+.bannerPai .bannerTitle .subTit a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
+    margin-left: 10px;
+
+}
+
+.bannerPai2 {
+    padding: 90px 0 100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+
+
+}
+
+.bannerPai2 .bannerTitle2 h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 45px;
+    
+}
+
+.subTit2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #796c61;
+    font-size: 16px;
+    padding-bottom: 30px;
+    margin: 0;
+    letter-spacing: 2px;
+
+}
+
+.conteudoPai2 {
+    text-align: center;
+    color: rgb(129, 125, 125);
+    width: 100%;
+    font-size: 15px;
+}
+
+.conteudoPai2 a {
+    color: #8cafbe;
+}
+
+.btnPai2 {
+    margin: 30px;
+    padding: 17px 17px 17px 17px;
+    color: white;
+    background-color: #8dcb89;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+
+.bannerPai3 {
+    /* margin: 0px 20px 0px 20px; */
+    width: 100%;
+    /* padding: 50px 0 50px 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+
+
+.bannerTitle3 h1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #242323;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+span.subTit3 {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(186, 178, 178);
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
+
+
+h2 {
+    font-size: 17px;
+    color: rgb(82, 80, 80);
+}
+
+.imgsPai3 p {
+    font-size: 16px;
+    color: gray;
+}
+
+.imgsPai3 {
+    display: flex;
+    padding: 50px 0;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imgPai3 .bordaImg {
+    border: rgb(221, 204, 204) 1px solid;
+}
+
+.imgPai3 .box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+    margin: auto;
+}
+
+.imgsPai3 .cxPai3 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.imgsPai3 .cxPai3 .imgPai3 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+
+.imgsPai3 .btnPai3 {
+    background-color: #6fc06a;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    margin: 20px;
+    letter-spacing: 2px;
+}
+
+.bannerPai4 {
+    width: 100%;
+    height: 600PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: lightgrey;
+}
+
+.bannerPai4 h1 {
+    color: #242323;
+    margin: 0px 20px 0px 20px;
+    font-size: 40px;
+}
+
+.bannerPai4 p {
+    color: gray;
+    margin: 0;
+}
+
+.bannerPai4 .inputsPai4 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 20px 0px 20px;
+}
+
+
+.inputNome {
+    width: 100%;
+    padding: 15px 0 15px 5px;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.inputEmail {
+    width: 100%;
+    padding: 15px 0 15px 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.inputMessage {
+    padding: 15px 0 15px 5px;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+
+}
+
+button.btnPai4 {
+    margin: 20px;
+    padding: 15px 22px 15px 22px;
+    color: white;
+    background-color: rgb(119, 186, 119);
+    border-radius: 5px;
+    border: none;
+}
+
+.bannerPai5 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(246, 85, 85);
+
+}
+
+.bannerPai5 .bannerPai5Tit {
+    text-align: center;
+
+}
+
+.bannerPai5 .bannerPai5Tit h1 {
+    color: #fff;
+    font-size: 45px;
+    margin: 0;
+
+}
+
+.bannerPai5 .bannerPai5Tit p {
+    color: rgb(192, 187, 187);
+    margin-top: 0px;
+    font-size: 16px;
+
+
+
+}
+
+.iconesPai5button {
+    margin: 60px;
+    margin-bottom: 20px;
+}
+
+
+.bannerPai5 .iconesPai5button button {
+    background-color: #242323;
+    border-radius: 100%;
+    padding: 14px 14px;
+    margin: 5px;
+    border: none;
+
+}
+
+.bannerPai5 .iconesPai5button i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+    background-color: #242323;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+
+}
+
+.footer p {
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+
+
+}
