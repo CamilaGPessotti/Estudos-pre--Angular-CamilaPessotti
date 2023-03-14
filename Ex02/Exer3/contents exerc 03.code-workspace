@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "contents",
+			"path": "../../contents"
+		},
+		{
+			"name": "Ex02",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ex02"
+	}
+}
