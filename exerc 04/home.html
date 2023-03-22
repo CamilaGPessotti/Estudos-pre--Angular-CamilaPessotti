@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma</title>
+    <link rel="stylesheet" href="./home.css" media="all">
+
+</head>
+
+<body>
+
+    <section class="container">
+        <div class="nav">
+            <div class="img1">
+                <a href="https://itlean.com.br/">
+                    <img src="./logo.png" class="logo">
+                </a>
+            </div>
+
+            <div class="categoria">
+                <select id="select" name="">
+                    <option value="" disabled selected> Categorias </option>
+                    <option value="txt1"> Singapore </option>
+                    <option value="lion"> Merlion </option>
+                    <option value="garden"> Garden </option>
+                    <option value="marina"> Marina Bay </option>
+                    
+                    <a href="index.html" target="_blank" onclick="myFunction('txt1');"> Singapure</a>
+                    <a href="index.html" target="_blank" onclick="myFunction('lion');"> Merlion</a>
+                    <a href="index.html" target="_blank" onclick="myFunction('garden');"> Garden</a>
+                    <a href="index.html" target="_blank" onclick="myFunction('marina');"> Marina Bay</a>
+                </select>
+            </div>
+
+        
+            <div class="home">
+                <a href="#"> Home </a>
+            </div>
+        </div>
+
+        <div id="traco"></div>
+
+    </section>
+
+    <!-- <section class="Noticías">
+    </section> -->
+
+    <section class="cont2">
+        <a href="./index.html" onclick="myFunction('txt1');" class="section2">
+            <span id="txt1">
+                20/12/2022
+            </span>
+            <h1>Singapure </h1>
+            <h3>Notícias</h3>
+            <h5> &copy;Camila Pessotti</h5>
+        </a>
+
+        <!-- <a href="./index.html"  onclick="myFunction('lion');" class="section2-1">
+            <span id="lion">
+                20/12/2022
+            </span>
+            <h1> Merlion </h1>
+            <h3>Notícias</h3>
+            <h6> &copy;Camila Pessotti </h6> 
+        </a>
+
+        <a href="./index.html" onclick="myFunction('garden');" class="section3-1">
+            <span id="garden">
+                20/12/2022
+            </span>
+            <h1> Garden </h1>
+            <h3> Notícias </h3>
+            <h5> &copy;Camila Pessotti </h5>
+        </a>
+
+        <a href="./index.html" onclick="myFunction('marina');" class="section4-1">
+            <span id="marina">
+                20/12/2022
+            </span>
+            <h1> Marina Bay </h1>
+            <h3>Notícias</h3>
+            <h5> &copy;Camila Pessotti </h5>
+        </a> -->
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="home.js"></script>
+
+</body>
+
+</html>

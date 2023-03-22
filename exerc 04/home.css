@@ -1,0 +1,496 @@
+body {
+    margin: 0;
+    background-color: #1E1E1E;
+
+}
+
+.container {
+    background-color: lightgrey;
+
+}
+
+/*Nav*/
+.container .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.container .nav a {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    margin: 0 20px 0px 0;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+#traco {
+    position: absolute;
+    top: 70px;
+    right: 25px;
+    padding: 2px 25px;
+}
+
+.tracinho {
+    background-color: red;
+}
+
+img .logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 30px 10px 30px;
+
+}
+
+#select {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(170, 57, 57);
+    color: white;
+
+
+}
+
+.home {
+    margin-top: 10px;
+
+}
+
+/* section2*/
+
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.cont2 .section2 {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-image: url(./singapuraTop.jpg);
+    background-size: cover;
+    background-position: center top;
+    border-radius: none;
+    /* filter: opacity(0.5) drop-shadow(0 0 0 black) */
+}
+
+.section2 span {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 12%;
+    top: 110px;
+}
+
+.section2 h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* position: absolute; */
+    font-size: 40px;
+    color: rgb(170, 57, 57);
+    /* left: 12%; */
+    top: 0px;
+    text-decoration: none;
+
+}
+
+.section2 h3 {
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    left: 12%;
+    top: 300px;
+
+}
+
+.section2 h5 {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    right: 12%;
+    top: 310px;
+
+}
+
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+/* SECTION2-1*/
+
+.cont2 .section2-1 {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-image: url(./merlionCat.webp);
+    /* filter: opacity(0.5) drop-shadow(0 0 0 black); */
+    background-size: cover;
+    background-position: center top;
+    border-radius: none;
+}
+
+.section2-1 span {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 12%;
+    top: 450px;
+}
+
+.section2-1 h1 {
+    position: absolute;
+    font-size: 40px;
+    color: rgb(170, 57, 57);
+    left: 12%;
+    top: 450px;
+
+}
+
+.section2-1 h3 {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(192, 92, 92);
+    left: 12%;
+    top: 510px;
+
+}
+
+.section2-1 h5 {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    left: 12%;
+    top: 550px;
+
+}
+
+/* SECTION3-1*/
+
+.cont2 .section3-1 {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-image: url(./garden1.jpeg);
+    /* filter: opacity(0.5) drop-shadow(0 0 0 black); */
+    background-size: cover;
+    background-position: center top;
+    border-radius: none;
+}
+
+.section3-1 span {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 12%;
+    top: 780px;
+}
+
+.section3-1 h1 {
+    position: absolute;
+    font-size: 40px;
+    color: rgb(170, 57, 57);
+    left: 12%;
+    top: 780px;
+
+}
+
+.section3-1 h3 {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(29, 28, 28);
+    left: 12%;
+    top: 840px;
+
+}
+
+.section3-1 h5 {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    left: 12%;
+    top: 900px;
+
+}
+
+/* SECTION-1*/
+
+.cont2 .section4-1 {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-image: url(./mb2.jpg.crdownload);
+    /* filter: opacity(0.5) drop-shadow(0 0 0 black); */
+    background-size: cover;
+    background-position: center top;
+    border-radius: none;
+}
+
+.section4-1 span {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 12%;
+    top: 1120px;
+}
+
+.section4-1 h1 {
+    position: absolute;
+    font-size: 40px;
+    color: rgb(170, 57, 57);
+    left: 12%;
+    top: 1120px;
+
+}
+
+.section4-1 h3 {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(15, 14, 14);
+    left: 12%;
+    top: 1170px;
+
+}
+
+.section4-1 h5 {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    left: 12%;
+    top: 1220px;
+
+}
+
+/* INÍCIO DO RESPONSIVO*/
+
+
+/* Responsivo SECTION2 */
+@media (max-width: 400px) {
+    .cont2 .section2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 250px;
+        background-image: url(./Rectangle\ 2.png);
+        filter: opacity(0.5) drop-shadow(0 0 0 black);
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .section2 span {
+        position: absolute;
+        font-size: 20px;
+        color: white;
+        left: 2%;
+        top: 10px;
+    }
+
+    .section2 h1 {
+        position: absolute;
+        font-size: 50px;
+        color: white;
+        left: 2%;
+        top: 60px;
+
+    }
+
+    .section2 h3 {
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        left: 2%;
+        top: 140px;
+
+    }
+
+    .section2 h5 {
+        position: absolute;
+        font-size: 20px;
+        color: blue;
+        left: 2%;
+        top: 180px;
+
+    }
+}
+
+
+/*RESPONSIVO SECTION2-1*/
+@media (max-width: 400px) {
+    .cont2 .section2-1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 250px;
+        background-image: url(./Rectangle\ 2.png);
+        filter: opacity(0.5) drop-shadow(0 0 0 black);
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .section2-1 span {
+        position: absolute;
+        font-size: 20px;
+        color: white;
+        left: 2%;
+        top: 10px;
+    }
+
+    .section2-1 h1 {
+        position: absolute;
+        font-size: 50px;
+        color: white;
+        left: 2%;
+        top: 60px;
+
+    }
+
+    .section2-1 h3 {
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        left: 2%;
+        top: 140px;
+
+    }
+
+    .section2-1 h5 {
+        position: absolute;
+        font-size: 20px;
+        color: blue;
+        left: 2%;
+        top: 180px;
+
+    }
+}
+
+
+
+/* Responsivo SECTION2 */
+
+@media (min-width: 401px) and (max-width: 768px) {
+
+    .cont2 .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        margin: 30px 135px;
+        background-image: url(./Rectangle\ 2.png);
+        background-size: cover;
+        background-position: center top;
+        border-radius: none;
+        filter: opacity(0.5) drop-shadow(0 0 0 black);
+
+    }
+
+    .section2 span {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .section2 h1 {
+        font-size: 40px;
+        top: 100px;
+        left: 15px;
+    }
+
+    .section2 h3 {
+        font-size: 30px;
+        left: 15px;
+        top: 170px;
+
+    }
+
+    .section2 h5 {
+        font-size: 25px;
+        left: 15px;
+        top: 210px;
+
+    }
+}
+
+/* Responsivo SECTION2-1 */
+
+@media (min-width: 401px) and (max-width: 768px) {
+    .cont2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .cont2 .section2-1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 250px;
+
+        background-image: url(./Rectangle\ 2.png);
+        filter: opacity(0.5) drop-shadow(0 0 0 black);
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .section2-1 span {
+        font-size: 18px;
+        top: 400px;
+        left: 20px;
+
+    }
+
+    .section2-1 h1 {
+        font-size: 40px;
+        top: 420px;
+        left: 20px;
+    }
+
+    .cont2 .section2-1 h3 {
+        left: 20px;
+        top: 480px;
+
+    }
+
+    .cont2 .section2-1 h5 {
+        font-size: 25px;
+        left: 20px;
+        top: 510px;
+
+    }
+}
