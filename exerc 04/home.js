@@ -37,7 +37,6 @@ select.addEventListener('change', (evento) => {
     window.location.href = 'index.html';
 })
 
-// document.getElementById("select").innerHTML = htmlSel
 
 
 function getAllNoticias() {
