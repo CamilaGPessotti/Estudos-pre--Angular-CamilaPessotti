@@ -11,8 +11,8 @@ import { Categorias } from '../model/categoria';
 export class CategoriaService {
 
 
-  constructor(private http: HttpClient) { }
   apiUrl: string = 'http://localhost:3000/';
+  constructor(private http: HttpClient) { }
   
   getAllCategorias(): Observable<Categorias[]> {
     return this.http.get<Categorias[]>(this.apiUrl + 'categorias');
