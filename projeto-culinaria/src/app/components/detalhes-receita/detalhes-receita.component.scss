@@ -1,0 +1,309 @@
+.pai {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.pai .pai2 {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pai .pai2 .pai3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.pai .pai2 .pai3 .img {
+    width: 260px;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+
+
+
+.pai .pai2 .pai3 .informacoes {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-inline: auto;
+
+}
+
+.pai .pai2 .pai3 .informacoes h1 {
+    font-size: 35px;
+    margin: 65px 0 0 0;
+}
+
+.pai .pai2 .pai3 .informacoes .textoP {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.pai .pai2 .pai3 .informacoes .rendimento {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 30px;
+    text-align: center;
+    color: #ff9900;
+    font-weight: 700;
+    gap: 20px;
+}
+
+.pai .pai2 .pai3 .informacoes .rendimento .traco {
+    width: 70px;
+    height: 0px;
+    margin-top: 30px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+}
+
+.pai .pai2 .pai3 .informacoes .rendimento .nivel-1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rendimento .definicao2 {
+    margin: 0;
+}
+
+
+.ingredientes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ingredientes h3 {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Roboto';
+
+
+}
+
+.ingredientes .gradeItens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.ingredientes .itens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: 'Roboto';
+    gap: 25px 45px;
+}
+
+.pai2 .modo-preparo {
+    font-family: 'Roboto';
+    font-style: normal;
+
+}
+
+.pai2 .modo-preparo h3 {
+    font-size: 28px;
+
+
+}
+
+.pai2 .modo-preparo p {
+    font-size: 18px;
+}
+
+.pai2 .modo-preparo span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FF9900;
+}
+
+.destaque .bloco {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 35px 35px 0px 35px;
+    margin: 0px -40px 0 0px;
+}
+
+
+
+.destaque .bloco .blocoImg img {
+    width: 260px;
+    height: 260px;
+    background-size: cover;
+}
+
+
+.destaque .bloco .blocoImg .text {
+    font-size: 20px;
+    // margin-bottom: 50px;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+   
+}
+
+@media (max-width: 670px) {
+    .pai {
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pai .pai2 {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pai .pai2 .pai3 {
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .pai .pai2 .pai3 .informacoes {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    h1 {
+        position: relative;
+        top: -450px;
+    }
+
+    .pai .pai2 .pai3 .img {
+        width: 240px;
+        height: 240px;
+        background-size: cover;
+        background-position: center;
+        margin-top: 165px;
+    }
+
+    .ingredientes {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ingredPreparo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gradeItens {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        gap: 0px;
+
+    }
+
+    .pai .pai2 .pai3 .informacoes .textoP {
+        position: relative;
+        top: -145px;
+    }
+
+    .pai .pai2 .pai3 .informacoes .rendimento {
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -70px;
+        line-height: 20px;
+        align-items: center;
+        font-size: 20px;
+        gap: 0px;
+    
+    }
+
+    .pai .pai2 .pai3 .informacoes .rendimento .traco {
+        width: 0px;
+        height: 0px;
+        border: 0;
+    }
+
+    .rendimento .rendi {
+        width: 224px;
+        word-break: break-word;
+    }
+
+    .nivel {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ingredientes .itens {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        font-family: 'Roboto';
+        width: 100%;
+        align-items: center;
+    }
+
+    .ingredientes h3 {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .modo-preparo h3 {
+        text-align: center;
+        font-size: 27px;
+    }
+    .destaque .bloco{
+        margin: 0px -7px 0 0px;
+    }
+
+    .destaque .bloco .blocoImg .text{
+        margin: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 670px) and (marx-width: 1180px)  {
+
+}

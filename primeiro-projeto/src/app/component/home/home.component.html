@@ -1,21 +1,24 @@
-<section class="cont2" (click)="IrparaInterna()" router>
-  <a href="http://localhost:4200/interna">
-    <span>
-      20/12/2022
-    </span>
-    <h1>Singapure </h1>
-    <h3>Notícias</h3>
-    <h5> &copy;Camila Pessotti</h5>
-  </a>
+<div class="contBtnFilters">
+  <button type="button" *ngFor="let categ of categorias" (click)="trocaCategoriaSelecionada(categ.id)">
+    {{ categ.nome}}
+  </button>
+</div>
+
+<section class="sectionImg"> 
+<ng-container *ngFor="let noticia of noticias">
+  <div *ngIf="categoriaSelecionada == noticia.categoria || categoriaSelecionada == 0">
+  <div class="blocoImg"  routerLink="/interna/{{noticia.id}}" style="background-image: url({{noticia.img}});">
+    <a href="/interna"  class="cont2">
+      <span>
+        {{noticia.dataPublicacao}}
+      </span>
+      <h1>{{noticia.titulo}}</h1>
+      <!-- <h3>{{noticia.dataPublicacao}}</h3> -->
+      <h5> &copy;{{noticia.autor}}</h5>
+    </a>
+  </div>
+</div>
+</ng-container>
 </section>
 
-<section class="cont2-1">
-  <a href="http://localhost:4200/interna">
-    <span>
-      20/12/2022
-    </span>
-    <h1>Singapure </h1>
-    <h3>Notícias</h3>
-    <h5> &copy;Camila Pessotti</h5>
-  </a>
-</section>
+

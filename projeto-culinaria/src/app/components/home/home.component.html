@@ -1,0 +1,36 @@
+<app-header></app-header>
+<div class="pai">
+  <div class="titulo">
+    <h1> Receitas em Destaque </h1>
+  </div>
+  <section class="destaque">
+    <ng-container *ngFor="let receita of receitas">
+      <div class="bloco" *ngIf="receita.destaque == true"> 
+        <div class="img" style="background-image: url({{receita.imagem}});"
+          routerLink="detalhes-receita/{{receita.id}}/{{receita.categoria}}"></div>
+        <div class="tituloRec">
+          {{receita.titulo}}
+        </div>
+      </div>
+    </ng-container>
+  </section>
+
+  <div class="btns" routerLink="interna/0">
+    <button type="button">
+      Ver mais categorias
+    </button>
+  </div>
+  <div class="tituloCateg">
+    <h1> Receitas por Categorias </h1>
+  </div>
+  <div class="paiBtn">
+    <ng-container *ngFor="let categ of categorias">
+      <div class="btnCategorias" routerLink="interna/{{categ.id}}">
+        {{ categ.categoria}}
+      </div>
+    </ng-container>
+  </div>
+</div>
+
+
+<app-footer></app-footer>

@@ -1,0 +1,44 @@
+<app-header></app-header>
+<div>
+  <h1> Receitas </h1>
+</div>
+<div class="paiNav">
+  <div class="nav">
+    <p>Dificuldade</p>
+    <button type="button" class="facil" (click)="trocaDificuldade(1)"> Fácil</button>
+    <button type="button" class="medio" (click)="trocaDificuldade(2)"> Médio </button>
+    <button type="button" class="dificil" (click)="trocaDificuldade(3)"> Difícil </button>
+  </div>
+</div>
+
+<section class="destaque">
+  <ng-container *ngFor="let receita of receitas">
+    <ng-container *ngIf="receita.dificuldade == idDificuldade || idDificuldade == 0">
+      <ng-container *ngIf="receita.categoria == idDaUrl || idDaUrl == 0">
+        <div class="bloco">
+          <div class="dificuldade" *ngIf="receita.dificuldade == 1" [ngClass]="green">
+            Fácil
+          </div>
+          <div class="dificuldade" *ngIf="receita.dificuldade == 2" [ngClass]="yellow">
+            Médio
+          </div>
+          <div class="dificuldade" *ngIf="receita.dificuldade == 3" [ngClass]="red">
+            Difícil
+          </div>
+          <div class="img" style="background-image: url({{receita.imagem}});"
+            routerLink="/detalhes-receita/{{receita.id}}/{{receita.categoria}}">
+          </div>
+
+          <div class="tituloRec">
+            {{receita.titulo}}
+          </div>
+
+        </div>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</section>
+
+
+
+<app-footer></app-footer>

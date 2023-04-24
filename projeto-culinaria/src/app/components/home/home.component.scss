@@ -1,0 +1,173 @@
+.pai{
+    margin: 0 0 0 40px;
+}
+.pai .titulo h1 {
+    text-align: center;
+    font-family: 'roboto';
+}
+
+.destaque {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    gap: 15px;
+}
+
+.destaque .bloco {
+    width: calc(25% - 12px);
+    display: flex;
+    flex-direction: column;
+}
+
+.destaque .bloco .img {
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+
+}
+
+.tituloRec {
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'roboto';
+}
+
+.tituloCateg {
+    text-align: center;
+    font-family: 'roboto';
+}
+
+.btns {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btns button {
+    height: 80px;
+    width: 400px;
+    left: 520px;
+    top: 682px;
+    border-radius: 12px;
+    background-color: #FF9900;
+    font-size: 25px;
+    color: white;
+    font-family: 'roboto';
+
+}
+
+.paiBtn {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.btnCategorias {
+    padding: 20px 0;
+    background: #D9D9D9;
+    width: calc(20% - 15px);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'roboto';
+
+}
+
+.btnCategorias:hover {
+    background-color: #565252;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+@media (max-width: 670px) {
+
+    .pai{
+        margin: 20px 0 0 0;
+    }
+
+    .pai .titulo h1 {
+        text-align: center;
+        width: 220px;
+        word-wrap: break-word;
+        margin: 60px;
+        font-family: 'roboto';
+        font-size: 38px;
+        padding: 0 0 0 20px;
+    }
+
+    .destaque {
+        width: 85%;
+    }
+
+    .destaque .bloco .img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .destaque .bloco {
+        padding: 0px 58px 0px 15px;
+
+        text-align: center;
+    }
+
+    .destaque .bloco .tituloRec {
+        text-align: center;
+        width: 130px;
+        word-wrap: break-word;
+    }
+
+    .btns button {
+        height: 40px;
+        width: 300px;
+        border: none;
+        font-size: 20px;
+
+    }
+
+    .tituloCateg {
+        width: 210px;
+        word-wrap: break-word;
+        padding: 0px 58px 40px 85px;
+        
+    }
+    .paiBtn {
+        padding: 0px 0px 40px 30px;
+        width: 90%;
+        margin: 0;
+        gap: 30px;
+       
+    }
+    
+    .btnCategorias {
+        font-family: 'roboto';
+        font-size: 20px;
+        width: 140px;
+        height: 20px;
+        font-weight: 500;
+        
+      
+        
+    
+    }
+
+
+}

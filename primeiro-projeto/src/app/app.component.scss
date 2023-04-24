@@ -18,11 +18,27 @@
     padding: 0px;
 }
 
+.login {
+    position: absolute;
+    right: 110px;
+    text-align: center;
+    margin: 23px;
+    
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight:900;
+}
+
 .home {
     position: absolute;
     right: 10px;
     text-align: center;
-    margin: 22px;
+    margin: 23px;
     
 }
 

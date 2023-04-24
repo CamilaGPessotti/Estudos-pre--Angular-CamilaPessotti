@@ -1,0 +1,84 @@
+<app-header></app-header>
+
+<section class="pai">
+    <ng-container *ngFor="let receita of receitas">
+        <ng-container *ngIf="receita.id == idDaUrl">
+            <div class="pai2">
+                <div class="pai3">
+                    <div class="img" style="background-image: url({{receita.imagem}});">
+                    </div>
+                    <div class="informacoes">
+                        <h1>{{receita.titulo}}</h1>
+                        <p class="textoP">
+                            {{receita.resumo}}
+                        </p>
+                        <div class="rendimento">
+                            <div class="rendi">
+                                <div *ngIf="receita.rendimento == 1">
+                                    <div> Rendimento: {{receita.rendimento}} Porção </div>
+                                </div>
+                                <div *ngIf="receita.rendimento > 1">
+                                    <div> Rendimento: {{receita.rendimento}} Porções</div>
+                                </div>
+                            </div>
+                            <div class="traco"></div>
+                            <div class="tempo">
+                                Preparo:  {{receita.tempoPreparo}} MIN
+                            </div>
+                            <div class="traco"></div>
+                            <div class="nivel">
+                            
+                                <div *ngIf="receita.dificuldade == 1">
+                                  Dificuldade:  Fácil
+                                </div>
+                                <div *ngIf="receita.dificuldade == 2">
+                                   Dificuldade: Médio
+                                </div>
+                                <div *ngIf="receita.dificuldade == 3">
+                                    Dificuldade: Difícil
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ingredPreparo">
+                <div class="ingredientes">
+                    <h3>Ingredientes</h3>
+                    <div class="gradeItens">
+                        <div class="itens" *ngFor="let ingrediente of receita.ingredientes">
+                            {{ingrediente.quantidade}} - {{ingrediente.ingrediente}}
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modo-preparo">
+                    <h3> Modo de preparo: </h3>
+                    <div *ngFor="let preparo of receita.modoPreparo">
+                        <p><span> {{preparo.passo}} </span> {{preparo.texto}}</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </ng-container>
+    </ng-container>
+
+
+    <div class="destaque">
+        <div class="bloco">
+            <ng-container *ngFor="let receita of aleatorioReceita">
+                <div class="blocoImg">
+                    <div class="img" routerLink="/detalhes-receita/{{receita.id}}/{{receita.categoria}}">
+                        <img src="{{receita.imagem}}" alt="...">
+                    </div>
+                    <div class="text">
+                        {{receita.titulo}}
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</section>
+
+<app-footer></app-footer>

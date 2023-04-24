@@ -1,0 +1,173 @@
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'roboto';
+}
+
+.paiNav {
+    background-color: #D9D9D9;
+    width: 100%;
+}
+
+.paiNav .nav {
+    width: calc(100% - 60px);
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    font-size: 24px;
+    align-items: center;
+    font-family: 'Arial';
+    font-weight: 500;
+    padding: 20px 0 20px 0px;
+    margin-bottom: 20px;
+    margin-left: 4%;
+    line-height: 28px;
+     
+}
+
+.paiNav .nav button {
+    width: 152px;
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 5px 50px ;
+    font-size: 20px;
+    font-family: 'roboto';
+    border: none;
+    color: white;
+}
+
+
+.paiNav .nav .facil{
+    background-color: #0e920c;
+   
+}
+
+.paiNav .nav .medio{
+    background-color: #b3b70c;
+   
+}
+
+.nav .dificil{
+    background-color: #cf0606;
+   
+}
+
+.dificuldade{
+    width: 88px;
+    height: 24px;
+    position: absolute;
+    margin-left: 171px;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    padding: 9px;
+    text-align: center;
+    font-family: 'roboto';
+}
+
+.verde{
+    background-color: #0e920c;
+    width: 62px;
+}
+
+.amarelo{
+    background-color: #b3b70c;
+    width: 62px;
+}
+
+.vermelho{
+    background-color: #cf0606;
+    width: 62px;
+}
+
+.nav .todas {
+    background-color: goldenrod;
+}
+
+.destaque{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    gap: 70px;
+    margin-bottom: 20px;
+    font-family: 'roboto';
+    }
+
+    .destaque .bloco {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .destaque .bloco .img {
+        width: 250px;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 15px;
+    }
+
+    .destaque .bloco .picanha {
+        font-size: 24px;
+        margin-bottom: 50px;
+        text-align: center;
+        line-height: 28px;
+        font-family: 'roboto';
+    }
+
+
+
+
+    @media (max-width: 670px) {
+        .paiNav{
+            width: 100%;
+        }
+        .paiNav .nav {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 0px 0px 40px 10px;
+                
+        }
+        .paiNav .nav p {
+            font-size: 25px;
+            font-family: 'roboto';
+            margin-bottom: -3px;
+        }
+        .destaque{
+            width: 100%;
+        }
+        .destaque .bloco{
+            padding: 0px 0px 0px 0px;
+        }
+        .destaque .bloco .img {
+            width: 130px;
+            height: 130px;
+            
+        }
+
+        .dificuldade{
+            position: absolute;
+            width: 60px;
+            height: 18px;
+            margin-left: 54px;
+            font-weight: 600;
+           
+        }
+        .destaque .bloco .tituloRec {
+            width: 130px;
+            word-wrap: break-word;
+            font-size: 20px;
+            margin-bottom: 50px;
+          
+        }
+    
+    }
